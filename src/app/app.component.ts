@@ -9,7 +9,7 @@ import AOS from 'aos'
 })
 export class AppComponent implements OnInit {
   title = '10th-monthversary';
-  finishDate: Date = new Date("05/16/2023 21:48:00");
+  finishDate: Date = new Date("05/17/2023 00:17:17");
   itsTime : boolean = false;
 
   spendTimeSectionImages : string[] = [
