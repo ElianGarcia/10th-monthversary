@@ -1,0 +1,15 @@
+h1 {
+    color: #84008d;
+    border: solid rgba(#000, .03);
+    padding: .6em 1em;
+    box-shadow: 2px 2px 5px rgba(#000, .2), 
+                            2px 2px 17px rgba(#000, .35), 
+                            2px 2px 25px rgba(#000, .5);
+    text-shadow: 1px 1px #e038e3;
+}
+
+img {
+    border: none;
+    max-height: 320px;
+    object-fit: cover;
+}

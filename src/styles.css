@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+    border-radius: .9rem;
+    background-color: rgb(243, 143, 247);
+    padding: 10px;
+}
+
+p {
+    font-size: large;
+    color:#3a1f3b;
+}

@@ -1,0 +1,17 @@
+<div class="container text-center mt-3">
+  <h1>{{ title }}</h1>
+  <p>{{ text }}</p>
+
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="col" *ngFor="let item of images">
+      <div class="card border-0 m-1" 
+        [attr.data-aos]="aos"
+        data-aos-anchor-placement="center-center">
+        <img 
+          [src]="item" 
+          class="card-img-top h-100" 
+          alt="..." />
+      </div>
+    </div>
+  </div>
+</div>
